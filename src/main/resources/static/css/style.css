@@ -14,5 +14,9 @@
 }
 body{
 	background-color:black;
-	color: white;
+	color:white;
+}
+h4, label
+{
+	color:black;
 }

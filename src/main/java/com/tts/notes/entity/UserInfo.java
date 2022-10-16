@@ -26,7 +26,7 @@ public class UserInfo {
 		// TODO Auto-generated constructor stub
 	}
 
-	public String getPassword() {
+	public static String getPassword() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -42,6 +42,21 @@ public class UserInfo {
 	}
 
 	public static String getEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public int getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void setEmail(String email2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String getRole() {
 		// TODO Auto-generated method stub
 		return null;
 	}

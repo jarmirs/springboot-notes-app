@@ -79,7 +79,7 @@ public class UserController {
 		String email = p.getName();
 		UserInfo user = userRepository.findByEmail(email);
 
-		notes.setUserDtls(user);
+		notes.setUserInfo(user);
 
 		Notes updateNotes = notesRepository.save(notes);
 
@@ -116,7 +116,7 @@ public class UserController {
 	public String saveNotes(@ModelAttribute Notes notes, HttpSession session, Principal p) {
 		String email = p.getName();
 		UserInfo u = userRepository.findByEmail(email);
-		notes.setUserDtls(u);
+		notes.setUserInfo(u);
 
 		Notes n = notesRepository.save(notes);
 
